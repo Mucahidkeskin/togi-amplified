@@ -31,12 +31,11 @@
         "GraphQLAPIEndpointOutput": "https://l462mij5cfcv3e3nhxs3lm6c7y.appsync-api.us-east-1.amazonaws.com/graphql",
         "GraphQLAPIKeyOutput": "da2-blu5iwom6vamjl6fosil7knzqe"
       },
+      "lastPushTimeStamp": "2022-09-16T16:37:25.141Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apitogiamplified"
-      },
-      "lastPushTimeStamp": "2022-09-16T14:21:06.182Z",
-      "lastPushDirHash": "PsmOY/RcFtDvcx3x5HnDzsuNIGk="
+      }
     }
   },
   "auth": {
@@ -63,11 +62,6 @@
           "EMAIL"
         ]
       },
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/auth/togiamplified912aa1b7-cloudformation-template.json",
-        "logicalId": "authtogiamplified912aa1b7"
-      },
-      "lastPushTimeStamp": "2022-09-16T14:21:06.190Z",
       "output": {
         "UserPoolId": "us-east-1_V1qNN6gEt",
         "AppClientIDWeb": "5hemnvvl7b071rbh6ferpdt9s7",
@@ -77,7 +71,11 @@
         "IdentityPoolName": "togiamplified912aa1b7_identitypool_912aa1b7__staging",
         "UserPoolName": "togiamplified912aa1b7_userpool_912aa1b7"
       },
-      "lastPushDirHash": "e5OPLzWExpLfPInKqvbqApgDGdA="
+      "lastPushTimeStamp": "2022-09-16T16:37:25.143Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/auth/togiamplified912aa1b7-cloudformation-template.json",
+        "logicalId": "authtogiamplified912aa1b7"
+      }
     }
   },
   "storage": {
@@ -85,16 +83,15 @@
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
-      "lastPushTimeStamp": "2022-09-16T14:21:08.296Z",
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
-        "logicalId": "storageLogStorage"
-      },
       "output": {
         "BucketName": "logbucket71500-staging",
         "Region": "us-east-1"
       },
-      "lastPushDirHash": "KnmhsIoqKRaPeiwTszgafkGbpzw="
+      "lastPushTimeStamp": "2022-09-16T16:37:26.784Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storageLogStorage"
+      }
     }
   },
   "function": {
@@ -102,26 +99,21 @@
       "service": "Lambda",
       "providerPlugin": "awscloudformation",
       "build": true,
-      "lastBuildTimeStamp": "2022-09-16T10:12:04.278Z",
-      "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2022-09-16T10:12:04.329Z",
-      "distZipFilename": "S3Triggereb3e5505-7366484c49726a4e4658-build.zip",
-      "s3Bucket": {
-        "deploymentBucketName": "amplify-amplifyc6fee902f7384-staging-71500-deployment",
-        "s3Key": "amplify-builds/S3Triggereb3e5505-7366484c49726a4e4658-build.zip"
-      },
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/function/S3Triggereb3e5505-cloudformation-template.json",
-        "logicalId": "functionS3Triggereb3e5505"
-      },
-      "lastPushTimeStamp": "2022-09-16T14:21:06.207Z",
       "output": {
         "Region": "us-east-1",
         "Arn": "arn:aws:lambda:us-east-1:650930687456:function:S3Triggereb3e5505-staging",
         "Name": "S3Triggereb3e5505-staging",
         "LambdaExecutionRole": "S3Triggereb3e5505LambdaRoleeb3e5505-staging"
       },
-      "lastPushDirHash": "tNFfgY8c1T96ruM9NSt0xwl12Ws="
+      "lastPushTimeStamp": "2022-09-16T16:37:25.163Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyc6fee902f7384-staging-71500-deployment/amplify-cfn-templates/function/S3Triggereb3e5505-cloudformation-template.json",
+        "logicalId": "functionS3Triggereb3e5505"
+      },
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-amplifyc6fee902f7384-staging-71500-deployment",
+        "s3Key": "amplify-builds/S3Triggereb3e5505-7366484c49726a4e4658-build.zip"
+      }
     }
   }
 }

@@ -199,6 +199,9 @@
         "ClientName": "togiam912aa1b7_app_clientWeb",
         "RefreshTokenValidity": {
           "Ref": "userpoolClientRefreshTokenValidity"
+        },
+        "TokenValidityUnits": {
+          "RefreshToken": "days"
         }
       },
       "DependsOn": [
@@ -217,6 +220,9 @@
         },
         "RefreshTokenValidity": {
           "Ref": "userpoolClientRefreshTokenValidity"
+        },
+        "TokenValidityUnits": {
+          "RefreshToken": "days"
         }
       },
       "DependsOn": [

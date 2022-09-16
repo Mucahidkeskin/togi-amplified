@@ -1,0 +1,14 @@
+{
+  "resourceName": "LogStorage",
+  "policyUUID": "4d0a9b34",
+  "bucketName": "logbucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
