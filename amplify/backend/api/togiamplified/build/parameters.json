@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "togiamplified",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-amplifyc6fee902f7384-staging-71500-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/cfba0ade8473166d142112f3a5b569271c963573"
+}
