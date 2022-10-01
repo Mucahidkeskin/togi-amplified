@@ -10,7 +10,7 @@ export default function Log() {
   const uploadJson = async () => {
     //Upload the song
     const userInfo = await Auth.currentUserInfo();
-    console.log('userInf:', userInfo);
+    console.log('userInfo:', userInfo);
     var fileName = userInfo.username +"_"+ jsonData.name;
     console.log('çalıştı',jsonData);
     const result = await Storage.put(fileName, jsonData,{
