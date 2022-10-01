@@ -10,8 +10,8 @@ export default function Log() {
   const uploadJson = async () => {
     //Upload the song
     const userInfo = await Auth.currentUserInfo();
-    console.log('userInfo', userInfo.username);
-    var fileName = ("log");
+    console.log('userInf:', userInfo);
+    var fileName = userInfo.username +"_"+ jsonData.name;
     console.log('çalıştı',jsonData);
     const result = await Storage.put(fileName, jsonData,{
       progressCallback(progress) {
