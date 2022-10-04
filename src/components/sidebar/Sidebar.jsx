@@ -18,7 +18,7 @@ export default function Sidebar({}) {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Dashboard</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem" onClick={homeClick}><FiHome/>Home </li>
+                    <li className="sidebarListItem" onClick={homeClick}><FiHome/>&nbsp;Home </li>
                     <li className="sidebarListItem" onClick={devicesClick}><FiHardDrive/>&nbsp;Devices</li>
                     <li className="sidebarListItem" onClick={logClick}><FiTrendingUp/>&nbsp;Logs</li>
                     <li className="sidebarListItem" onClick={settingsClick}><FiSettings/>&nbsp;Settings</li>

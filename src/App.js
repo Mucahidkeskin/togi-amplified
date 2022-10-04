@@ -8,6 +8,7 @@ import Home from './components/pages/home/Home';
 import Sidebar from './components/sidebar/Sidebar';
 import Devices from './components/pages/devices/Devices';
 import Log from './components/pages/log/Log'
+import Logview from './components/pages/logview/Logview'
 import Topbar from './components/topbar/Topbar';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 
@@ -272,7 +273,10 @@ export default function App() {
           <Routes>
             <Route index element={<Home />} />
             <Route path="devices"element={<Devices/>}/>
-            <Route path="log"element={<Log/>}/>
+            <Route path="log"element={<Log/>}>
+              
+              <Route path="charts"element={<Logview/>}/>
+            </Route>
           </Routes>
         </div>
       </BrowserRouter>
