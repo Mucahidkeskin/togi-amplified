@@ -273,10 +273,8 @@ export default function App() {
           <Routes>
             <Route index element={<Home />} />
             <Route path="devices"element={<Devices/>}/>
-            <Route path="log"element={<Log/>}>
-              
-              <Route path="charts"element={<Logview/>}/>
-            </Route>
+            <Route path="log"element={<Log/>}/>
+            <Route path="log/charts"element={<Logview/>}/>
           </Routes>
         </div>
       </BrowserRouter>
